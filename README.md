@@ -14,19 +14,19 @@ The data include anonymized student information, learning interaction logs, emot
 | 1 | `studentID` | Anonymized student ID |
 | 2 | `classID` | Anonymized class ID |
 | 3 | `timeStamp` | Study time |
-| 4 | `emotion` | Emotional state during learning (recognized from images, including three states: Neutral, Happy, Sad) |
-| 5 | `diemTB_baitap` | Assignment/test score |
-| 6 | `soAnhChup` | Number of images captured during the learning process |
-| 7 | `soLanHoc` | Total number of study sessions |
-| 8 | `baiHoanThanh` | Total number of completed tasks |
-| 9 | `tbThoiGian1LanHoc` | Average duration per study session |
-| 10 | `tbThoiGianHoanThanhBai` | Average time to complete a task |
-| 11 | `tbPhanTramMoiLanHoc` | Average completion percentage per session |
-| 12 | `tgianHocTrongTuan` | Total study time per week |
-| 13 | `tgianHocGioHanhChinh` | Total study time during working hours |
-| 14 | `tgianHocNgoaiHanhChinh` | Total study time outside working hours |
-| 15 | `trongTuan` | Total study time on weekdays |
-| 16 | `cuoiTuan` | Total study time on weekends |
+| 4 | `studentEmotion` | Emotional state during learning (recognized from images, including three states: Neutral, Happy, Sad) |
+| 5 | `finalScore` | Assignment/test score |
+| 6 | `totalImages` | Number of images captured during the learning process |
+| 7 | `learningTimes` | Total number of study sessions |
+| 8 | `finishedLession` | Total number of completed tasks |
+| 9 | `avgTimeLearn` | Average duration per study session |
+| 10 | `avgTimeFinish` | Average time to complete a task |
+| 11 | `percentageFinish` | Average completion percentage per session |
+| 12 | `timeInWeek` | Total study time per week |
+| 13 | `inTime` | Total study time during working hours |
+| 14 | `outTime` | Total study time outside working hours |
+| 15 | `inWeekday` | Total study time on weekdays |
+| 16 | `outWeekday` | Total study time on weekends |
 
 ---
 
